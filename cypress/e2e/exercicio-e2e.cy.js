@@ -84,11 +84,11 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
 
 
-        // espera a atualização do checkout
+        // Espera a atualização do checkout
         cy.wait(2000)
 
       
-        // validação final
+        // Validação final
         cy.contains('Obrigado. Seu pedido foi recebido').should('be.visible')
     });
 });

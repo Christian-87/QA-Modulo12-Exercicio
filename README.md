@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Testes End to End - Ebac Shop
 ### Exercício para os alunos de Qualidade de software da EBAC 
 
@@ -49,3 +50,7 @@ Qualidade de software
 
 
 
+=======
+# QA-Modulo-12-exercicio
+QA - Automatizar um fluxo completo de pedido, ponta a ponta (end to end), utilizando o Hub de Leitura rodando localmente, aplicando os conceitos e boas práticas
+>>>>>>> b10aa6bb1d28d44917b3875af81d2eb437bf3e8d
