@@ -54,7 +54,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
         // Ir para o carrinho
         cy.get('.dropdown-toggle > .mini-cart-items').click()
-cy.get('#cart').find('.view-cart').click()
+        cy.get('#cart').find('.view-cart').click()
 
         // Checkout
         cy.contains('Concluir compra').click()
@@ -87,7 +87,7 @@ cy.get('#cart').find('.view-cart').click()
         // Espera a atualização do checkout
         cy.wait(2000)
 
-      
+
         // Validação final
         cy.contains('Obrigado. Seu pedido foi recebido').should('be.visible')
     });
